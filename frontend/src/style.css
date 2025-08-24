@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    /* background-color: #E4EBEB; */
+     background-image: linear-gradient(to right, #E4EBEB 0%, #4A90E2 100%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+/* #4A90E2 */
+.card
+{
+    background-color:#E4EBEB;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+    height: 30rem;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(255,255,223);
+    border: none;
+}
+
+.card-image
+{
+    background: url(./images/Form_nepal.png);
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+
+form
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 15px;
+    padding: 0 40px;
+    border: none;
+    outline: none;
+}
+
+input
+{
+    padding: 5px;
+    margin: 5px;
+    width: 20rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+input :placeholder-shown
+{
+    color: black;
+}
+
+.error
+{
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  background: #F5A623;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
