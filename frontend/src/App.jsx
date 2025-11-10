@@ -14,19 +14,21 @@ import Footer2 from "./Components/Footer.jsx"
 const App = () => {
     return(
         <div>
-            {/* <Form /> */}
+            <Form />
             {/* <TailwindExample /> */}
 
             {/* <Header/> */}
             {/* <Footer/> */}
 
             {/* <Home/> */}
-            <Navbar/>
+{/* //main */}
+            {/* <Navbar/>
             <Hero/>
             <SecondHero/>
             <NewsLetter/>
             <Cards />
-            <Footer2 />
+            <Footer2 /> */}
+
             {/* <BrowserRoute>
                 <Routes> */}
                     

@@ -5,17 +5,18 @@
 }
 body{
     height: 100vh;
-    /* background-color: #E4EBEB; */
-     background-image: linear-gradient(to right, #E4EBEB 0%, #4A90E2 100%);
+    background-color: #E4EBEB;
+     /* background-image: linear-gradient(to right, #E4EBEB 0%, #4A90E2 100%); */
      display: flex;
      justify-content: center;
      align-items: center;
 
 }
+
 /* #4A90E2 */
 .card
 {
-    background-color:#E4EBEB;
+    /* background-color:; */
     
     display: grid;
     grid-template-columns: 1fr 1fr;

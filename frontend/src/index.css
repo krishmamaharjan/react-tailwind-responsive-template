@@ -1,0 +1,27 @@
+/* @import "tailwindcss"; */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @custom-variant dark (&:where(.dark, .dark *));
+
+body
+{
+    background-color:  #E4EBEB;
+}
+/*custom styles and reusability */
+/* @theme  
+{
+    --color-chestnut: #4DA8DA;
+}
+@layer components 
+{
+    .card {
+        @apply bg-violet-200 h-10 w-full border-2 border-violet-600 rounded-md my-4 p-2 flex justify-center items-center
+    }
+} */ 
