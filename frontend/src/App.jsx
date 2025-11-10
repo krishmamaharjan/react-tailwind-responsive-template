@@ -1,6 +1,6 @@
 import Form from "./Components/Practice/Form.jsx";
 import Header from "./Components/Practice/Header.jsx";
-// import Footer from "./Components/Practice/Footer.jsx";
+import Footer from "./Components/Practice/Footer.jsx";
 import Home from "./Pages/Home.jsx"
 import { TailwindExample } from "./Components/Practice/TailwindExample.jsx";
 import Navbar from "./Components/Navbar.jsx";
@@ -14,20 +14,19 @@ import Footer2 from "./Components/Footer.jsx"
 const App = () => {
     return(
         <div>
+            <Navbar />
             <Form />
-            {/* <TailwindExample /> */}
+            <TailwindExample />
+            <Header/>
+            <Footer/>
+            <Home/>
 
-            {/* <Header/> */}
-            {/* <Footer/> */}
-
-            {/* <Home/> */}
-{/* //main */}
-            {/* <Navbar/>
+            <Navbar/> 
             <Hero/>
             <SecondHero/>
             <NewsLetter/>
             <Cards />
-            <Footer2 /> */}
+            <Footer2 />
 
             {/* <BrowserRoute>
                 <Routes> */}
